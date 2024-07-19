@@ -19,6 +19,48 @@ const routes = [
     path: '/login',
     name: 'login',
     component: () => import(/* webpackChunkName: "about" */ '../views/Login.vue')
+  },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Dashboard.vue'),
+    // 路由巢狀
+    children: [
+      {
+        path: 'products',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Products.vue')
+      },
+      {
+        path: 'orders',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Orders.vue')
+      },
+      {
+        path: 'coupons',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Coupons.vue')
+      },
+      {
+        path: 'logout',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Logout.vue')
+      }
+    ]
+  },
+  {
+    path: '/user',
+    component: () => import('../views/Userboard.vue'),
+    children: [
+      {
+        path: 'cart',
+        component: () => import('../views/UserCart.vue')
+      },
+      {
+        path: 'product/:productId',
+        component: () => import('../views/UserProduct.vue')
+      },
+      {
+        path: 'cartList',
+        component: () => import('../views/UserCartList.vue')
+      }
+    ]
   }
 ]
 

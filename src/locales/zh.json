@@ -1,0 +1,52 @@
+{
+    "title": "歡迎使用您的 Vue.js 應用程式",
+    "subTitle": {
+        "content": "有關如何配置/自訂此項目的指南和食譜，查看",
+        "vue-cli documentation": "Vue CLI 文件",
+        "installedCliPlugins": "已安裝的 CLI 插件",
+        "essentialLinks": "基本鏈接",
+        "ecosystem": "生態系統"
+    },
+    "installedCliPlugins": {
+        "babel": "babel",
+        "eslint": "eslint"
+    },
+    "essentialLinks": {
+      "coreDocs": "Core Docs",
+      "forum": "Forum",
+      "communityChat": "Community Chat",
+      "twitter": "Twitter",
+      "news": "News"
+    },
+    "ecosystem": {
+      "vueRouter":"vue-router",
+      "vuex": "vuex",
+      "vueDevtools": "vue-devtools",
+      "vueLoader": "vue-loader",
+      "awesomeVue": "awesome-vue"
+    },
+    "navbar": {
+      "products": "商品",
+      "orders": "訂單",
+      "coupons": "優惠券",
+      "logout": "登出"
+    },
+    "products": {
+      "category": "分類",
+      "productName": "產品名稱",
+      "originPrice": "原價",
+      "price": "售價",
+      "activate": "是否啟用",
+      "enable": "啟用",
+      "disable": "未啟用",
+      "edit": "編輯",
+      "delete": "刪除",
+      "addProduct": "新增產品"
+    },
+    "login": {
+      "email": "信箱",
+      "password": "密碼",
+      "login": "登入",
+    "loginTitle":"請先登入"
+    }
+  }

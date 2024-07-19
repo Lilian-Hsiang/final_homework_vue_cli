@@ -1,0 +1,52 @@
+{
+    "title": "Vue.js アプリへようこそ",
+    "subTitle": {
+        "content": "このプロジェクトを構成/カスタマイズする方法に関するガイダンスとレシピについては、以下を確認してください。",
+        "vue-cli documentation": "vue-cli ドキュメント",
+        "installedCliPlugins": "インストールされている CLI プラグイン",
+        "essentialLinks": "必須リンク",
+        "ecosystem": "生態系"
+    },
+    "installedCliPlugins": {
+        "babel": "babel",
+        "eslint": "eslint"
+    },
+    "essentialLinks": {
+      "coreDocs": "Core Docs",
+      "forum": "Forum",
+      "communityChat": "Community Chat",
+      "twitter": "Twitter",
+      "news": "News"
+    },
+    "ecosystem": {
+      "vueRouter":"vue-router",
+      "vuex": "vuex",
+      "vueDevtools": "vue-devtools",
+      "vueLoader": "vue-loader",
+      "awesomeVue": "awesome-vue"
+    },
+    "navbar": {
+      "products": "製品",
+      "orders": "注文",
+      "coupons": "クーポン",
+      "logout": "ログアウト"
+    },
+    "products": {
+      "category": "カテゴリー",
+      "productName": "商品名",
+      "originPrice": "元値",
+      "price": "価格",
+      "activate": "有効にする",
+      "enable": "有効にする",
+      "disable": "有効になっていません",
+      "edit": "編集",
+      "delete": "消去",
+      "addProduct": "製品を追加"
+    },
+    "login": {
+      "email": "Eメール",
+      "password": "パスワード",
+      "login": "ログイン",
+      "loginTitle":"ログインしてください"
+    }
+  }
